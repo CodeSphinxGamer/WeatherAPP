@@ -11,8 +11,8 @@ body {
 
 .card {
   width: 90%;
-  max-width: 500px;
-  background: linear-gradient(135deg, #00feba, #5b549a);
+  max-width: 450px;
+  background: linear-gradient(335deg, #1288c7, #0a0393);
   color: #fff;
   margin: 100px auto 0;
   border-radius: 20px;
@@ -76,4 +76,32 @@ body {
   justify-content: space-between;
   padding: 0 20px;
   margin-top: 50px;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.col img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.humidity,
+.wind {
+  font-size: 22px;
+  margin-top: -6px;
+}
+
+.weather {
+  display: none;
+}
+
+.error {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  display: none;
 }
